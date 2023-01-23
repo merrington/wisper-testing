@@ -4,6 +4,9 @@ gemspec
 
 gem "rake", "~> 10.0"
 gem "rspec"
-gem 'pry-byebug'
+
+group :development do
+  gem 'pry-byebug'
+end
 
 gem 'wisper', git: 'https://github.com/merrington/wisper', branch: 'ruby-3'
